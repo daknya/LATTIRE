@@ -115,8 +115,32 @@ header .fa-bars{
     border-radius: .5rem;
     padding:.5rem 1.5rem;
     cursor: pointer;
-    border:.1rem solid rgba(0,0,0,.3);
+    /* border:.1rem solid rgba(0,0,0,.3); */
     display: none;
+}
+.sidesticky{
+    position: fixed;
+    top: 80%;
+   right: 0;
+} 
+.noticons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.noticons a{
+    font-size: 2.9rem;
+    color:rgb(108, 106, 106);
+    margin-left: .5rem;
+    margin-top:.5rem;
+  
+}
+.noticons a:hover{
+  
+    color: blue;
+    transform: scale(1.3);
+
 }
 
 .home{
@@ -528,6 +552,9 @@ header .fa-bars{
         display: block;
     }
 
+     header .icons{
+        display: none;
+    }
     header .navbar{
         position:absolute;
         top:100%; left:0; right:0;
