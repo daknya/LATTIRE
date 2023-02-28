@@ -93,6 +93,13 @@ header .icons a{
     color:#333;
     margin-left: 1.5rem;
 }
+header .icons {
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+header .icons .search-bar{
+    margin: 2rem;
+}
 
 header .icons a:hover{
     color:var(--pink);
@@ -220,6 +227,7 @@ header .fa-bars{
     align-items: center;
     flex:1 1 25rem;
 }
+
 
 .icons-container .icons img{
     height:5rem;
